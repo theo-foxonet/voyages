@@ -34,12 +34,14 @@ body {
     color: #ffffff;
     font-family: "2";
   }
+  .bold{
+    font-weight: bold;
+  }
   
   main {
     min-height: 500px;
     width: 75%;
-    background: rgba(255, 255, 255, 0.349);
-  
+    background: rgba(255, 255, 255, 0.4);
     margin: 0 auto;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px 20px 0 0;
@@ -233,44 +235,15 @@ body {
     background: #d6d6d6;
     z-index: 1;
   }
-  #irlande {
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 100vh;
-    margin-bottom:100vh;
-    min-height: 150px;
-    color: white;
-  text-shadow: 4px 4px 8px #000000;
+  main > img{
+    width: 100%;
   }
-  #activitées {
+  .p{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px;
-    margin-top: 100vh;
-    margin-bottom:100vh;
     min-height: 150px;
-    color: white;
-    text-shadow: 4px 4px 8px #000000;
-  }
-  #incontournables {
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 100vh;
-    margin-bottom:100vh;
-    min-height: 150px;
-    color: white;
-    text-shadow: 4px 4px 8px #000000;
-  }
-  #sy-rendre {
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 100vh;
-    margin-bottom:100vh;
-    min-height: 150px;
-    color: white;
+    color: black;
     text-shadow: 4px 4px 8px #000000;
   }
   @font-face {

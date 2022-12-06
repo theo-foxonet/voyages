@@ -1,16 +1,26 @@
 body{
-	
 	width:100%;
-	height: 1000px;
-	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	width: auto;
+	color: white;
+	font-size: 30px;
 }
 header{
 	background-color: #B2B2B2;
 	color: white;
+	width: 100%;
 }
 .submenu{
     background-color: #B2B2B2;
     border-top: red 2px solid;
+}
+footer{
+	background-color: #B2B2B2;
+	color: white;
+	width: 100%;
 }
 html {
 	background-position: center;
@@ -21,30 +31,23 @@ html {
 	margin-top: auto;
 	height: auto;
 	background-attachment: fixed;
-	
 	background-image: url(IMG/zagreb.jpeg);
-	}
-body {
-
-	width: auto;
-	height: 1000px;
-	color: whitesmoke;
-	font-size: 30px;
 }
-
 .box {
-	display: grid;
-	justify-content: space-between;
 	background-color: rgba(26, 26, 26, 0.4);
 	border: solid;
 	border-color: white;
 	margin-top: auto;
+	width: 80%;
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
 
 }
 
 .introduction {
-
-
 	display: grid;
 	justify-content: center;
 }
@@ -52,28 +55,32 @@ body {
 .IMG {
 	border-color: white;
 	background-color: rgba(1, 1, 1, 0.3);
-
+	width: 80%;
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #Dubrovnik { 
-
-width: 600px;
-height: 300px;
-margin-left: 15px;
+	width: 600px;
+	height: 300px;
+	margin-left: 15px;
 }
-
-#center {
-
-	display: grid;
-	justify-content: center;
-
- }
 
  #Split {
 
 width: 600px;
 height: 300px;
 margin-left: 15px;
+}
 
+.iframe{
+	width: 50%;
+	height: 400px;
+}
+iframe{
+	width: 100%;
+	height: 100%;
 }
 

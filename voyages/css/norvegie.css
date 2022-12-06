@@ -6,11 +6,11 @@ body {
 
 }
 header{
-    background-color: #888;
-    color: black;
+    background-color: black;
+    color: white;
 }
 .submenu{
-    background-color: #888;
+    background-color: black;
     border-top: #B9DEFE 2px solid;
 }
 
@@ -21,7 +21,7 @@ html {
 }
 
 .background {
-  background-image: url("../pic/norway.jpg");
+  background-image: url("../img/norway.jpg");
   background-color: #cccccc;
   height: 750px;
   background-position: center;
@@ -48,28 +48,39 @@ html {
 
 .box {
 
-	display: grid;
-	justify-content: space-between;
+	display: flex;
+	justify-content: center;
 	background-color: white;
 	border: solid;
-	margin-left: auto;
-	margin-right: auto;
-	justify-content: center;
-	width: 30%;
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 	border-top-right-radius: 20px;
 	text-align: center;
-	height: auto;
+	flex-direction: row;
+	width: auto;
+	text-align: center;
+	justify-items: space-between;
+
+
+
+
+}
+footer{
+  background-color: black;
+  color: white;
+}
+
+
+.image center {
+
+	width: 150px;
+	height: 200px;
+	
 
 }
 
-.image {
 
-	width: 250px ;
-	height: 175px;
-}
 
 
 article {
@@ -89,11 +100,9 @@ article {
 
 
 .foot {
-
     background-color: black;
-    min-height: 250px;
-    width:auto;
-    height:250px;
+    width: auto;
+    height: auto;
     border: solid;
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
@@ -101,10 +110,11 @@ article {
     border-right-color: black;
     border-bottom-color: black;
     border-top-color: rgba(163, 226, 255, 0.8);
-    border-top-width: 25px;
+    border-top-width: 15px;
     margin-left: 0%;
     margin-right: 0%; 
     padding: auto;
+
 }
 
 
@@ -119,4 +129,10 @@ article {
 	color: white;
 	
 
+}
+
+main {
+
+	justify-content: space-between;
+	padding: auto;
 }
